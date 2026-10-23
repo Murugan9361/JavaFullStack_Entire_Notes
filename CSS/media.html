@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: bisque;
+      }
+      ul {
+        display: flex;
+        list-style-type: none;
+      }
+      ul li {
+        margin-left: 20px;
+      }
+      input {
+        width: 150px;
+        border: 0px solid white;
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .container{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        
+      }
+      .img-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img{
+        height: 400px;
+        width: 400px;
+        border-radius: 30%;
+      }
+      .aboutme{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      @media (max-width:760px) {
+       
+          .container{
+            margin-top: 50px;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+      }
+         nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: bisque;
+        flex-direction: column;
+      }
+      ul {
+        display: flex;
+        list-style-type: none;
+      }
+      .aboutme h1{
+        text-align: center;
+      }
+      .aboutme p{
+        text-align: justify;
+      }
+      }
+       @media (min-width:500px) and (max-width:760px) {
+       
+          .container{
+            margin-top: 50px;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(224, 65, 92);
+        
+      }
+         nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(21, 163, 23);
+        flex-direction: column;
+      }
+      ul {
+        display: flex;
+        list-style-type: none;
+      }
+      .aboutme h1{
+        text-align: center;
+      }
+      .aboutme p{
+        text-align: justify;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>KrishnaPrakash</h1>
+      <input type="text" placeholder="Search ...." />
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="img-container">
+        <img src="image.png" alt="" />
+      </div>
+      <div class="aboutme">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corporis
+          odit provident necessitatibus autem culpa modi veniam inventore non
+          delectus, repudiandae tenetur corrupti minus unde fugit maiores illum
+          quas nostrum dolor totam sunt voluptate possimus dolore? Natus quo
+          eaque aspernatur similique beatae officiis rem iste dolor inventore
+          consectetur sit temporibus quaerat tempore amet, nesciunt voluptatem
+          molestiae deleniti! Et, assumenda? Tempora similique tenetur, sit
+          alias quo earum non at? Ipsa nostrum ut perspiciatis fugit magni
+          similique et, voluptatem nulla optio labore unde animi commodi beatae
+          temporibus minus inventore eum quidem reprehenderit excepturi! Modi
+          nihil culpa quod nemo rerum numquam pariatur cumque fugit veniam, enim
+          maxime molestiae quis saepe, illo hic natus sequi quibusdam officia
+          consequatur itaque ratione explicabo libero? Eos, distinctio. Eaque ad
+          maxime quis fugit totam nesciunt quam eum corporis sit, alias neque
+          animi vel deleniti magnam saepe iste nulla quas. Nostrum, quisquam
+          recusandae asperiores quae deserunt eligendi voluptatibus porro!
+          Impedit illum maiores cumque reprehenderit similique neque, commodi
+          veniam quia ducimus error sed asperiores voluptate esse veritatis,
+          fuga modi incidunt doloremque dolorum consectetur placeat tempora, sit
+          repellendus omnis. Tenetur saepe iusto illo porro sunt aliquid quis,
+          harum quisquam a ea perferendis repudiandae voluptatum sequi neque
+          placeat, possimus nobis perspiciatis laudantium!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
