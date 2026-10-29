@@ -109,7 +109,13 @@ public class StringMethods {
 
     
     for(String k:sentences){
-       System.out.println(k.length());
+        for(int i=0;i<k.length();i++){
+          int count=0;
+         if(String.valueOf(k.charAt(i)).equals("a")){
+
+         }
+         
+        }
     }
     
 
