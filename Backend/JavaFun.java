@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class JavaFun {
@@ -23,25 +22,32 @@ public class JavaFun {
         return  balance+discount;
         
     }
+    void addStudent(int n){
+     Scanner s2=new Scanner(System.in);
+
+       
+    }
     public static void main(String[] args) {
-        Scanner s1=new Scanner(System.in);
+        Scanner s2=new Scanner(System.in);
 
-        JavaFun j1=new JavaFun();
-        j1.welcome();
-        System.out.print("Enter the number of a : ");
-        int c=s1.nextInt();
-        System.out.print("Enter the number of b : ");
-        int d=s1.nextInt();
+        // JavaFun j1=new JavaFun();
+        // j1.welcome();
+        // System.out.print("Enter the number of a : ");
+        // int c=s1.nextInt();
+        // System.out.print("Enter the number of b : ");
+        // int d=s1.nextInt();
 
-        int result=j1.sum(c,d);
-        System.out.println("Sum Of the ans :"+result);
+        // int result=j1.sum(c,d);
+        // System.out.println("Sum Of the ans :"+result);
         
 
-        // String word=j1.krishnan();
-        // System.out.println(word);
+        // // String word=j1.krishnan();
+        // // System.out.println(word);
 
-        double packet=j1.purscharse(500);
-        System.out.println("Balance : "+packet);
+        // double packet=j1.purscharse(500);
+        // System.out.println("Balance : "+packet);
+
+
     }
 
 }
